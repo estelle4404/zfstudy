@@ -15,7 +15,7 @@ use Zend\View\Model\ViewModel;
 class IndexController extends AbstractActionController
 {
     public function indexAction()
-    {echo 1;
+    {
         return new ViewModel();
     }
 }
