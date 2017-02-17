@@ -23,7 +23,7 @@ class ListController extends AbstractActionController
     }
 
     public function indexAction()
-    {
+    {var_dump($this->postService->findAllPosts());
         return new ViewModel(array(
             'posts'=>$this->postService->findAllPosts()
         ));
